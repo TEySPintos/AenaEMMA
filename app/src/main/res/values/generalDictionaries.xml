@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Aeropuertos de españa
+    <string-array name="surveyAirportStrings">
+        <item> ...</item><!--
+        <item> Sevilla </item>
+        <item> Madrid </item>
+        <item> Barcelona </item>
+        <item> Palma de Mallorca </item>
+        <item> Ibiza </item>
+        <item> Menorca </item>
+        <item> Asturias </item>-->
+        <item> Málaga </item><!--
+        <item> Bilbao </item>
+        <item> Tenerife Norte </item>
+        <item> Tenerife Sur </item>
+        <item> Lanzarote </item>
+        <item> Fuerteventura </item>
+        <item> Gran Canaria </item>
+        <item> Almería </item>
+        <item> Santander </item>
+        <item> Zaragoza </item>
+        <item> Reus </item>
+        <item> Jerez </item>
+        <item> Alicante </item>
+        <item> Granada </item>-->
+    </string-array>
+    <string-array name="surveyAirportCodes">
+        <item> 0 </item><!--
+        <item> SVQ </item>
+        <item> MAD </item>
+        <item> BCN </item>
+        <item> PMI </item>
+        <item> IBZ </item>
+        <item> MAH </item>
+        <item> OVD </item>-->
+        <item> AGP </item><!--
+        <item> BIO </item>
+        <item> TFN </item>
+        <item> TFS </item>
+        <item> ACE </item>
+        <item> FUE </item>
+        <item> LPA </item>
+        <item> LEI </item>
+        <item> SDR </item>
+        <item> ZAZ </item>
+        <item> REU </item>
+        <item> XRY </item>
+        <item> ALC </item>
+        <item> GRX </item>-->
+    </string-array>
+
+
+    //Idioma
+    <string-array name="languageStrings">
+        <item>	Español	</item>
+        <item>	Inglés	</item>
+        <item>	Alemán	</item>
+        <item>	Francés	</item>
+        <item>	Italiano	</item>
+        <item>	Portugués	</item>
+        <item>	Catalán	</item>
+        <item>	Euskera	</item>
+    </string-array>
+    <string-array name="languageCode">
+        <item> es </item>
+        <item> en </item>
+        <item> de </item>
+        <item> fr </item>
+        <item> it </item>
+        <item> pt </item>
+        <item> ca </item>
+        <item> eu </item>
+    </string-array>
+
+
+
+
+
+
+    //P14
+    <string-array name="p14strings">
+        <item>	…	</item>
+        <item>	101	. 	NEGOCIO, EXCEPTO EXPOSICIONES	</item>
+        <item>	102	. 	ASISTENCIA A EXPOSICIONES, CONGRESOS, FERIAS, ETC	</item>
+        <item>	103	. 	RESOLUCION DE ASUNTOS RELATIVOS A LAS ADMINISTRACIONES CIVIL, MILITAR O ECLESIASTICA	</item>
+        <item>	104	. 	TRABAJO ESTABLE EN EL EXTRANJERO > 90 DIAS	</item>
+        <item>	105	. 	PRACTICA DE UN DEPORTE COMO PROFESIONAL	</item>
+        <item>	106	. 	ESTUDIOS PAGADOS POR LA EMPRESA	</item>
+        <item>	201	. 	ESTUDIOS	</item>
+        <item>	202	. 	VISITA A PARIENTES Y AMIGOS	</item>
+        <item>	203	. 	EXTRANJERO O FORASTERO NACIONAL CON SEGUNDA RESIDENCIA LOCAL	</item>
+        <item>	204	. 	MIGRACION O CAMBIO DE RESIDENCIA	</item>
+        <item>	205	. 	TRATAMIENTO MEDICO	</item>
+        <item>	206	. 	PRACTICA DE UN DEPORTE	</item>
+        <item>	207	. 	COMPRAS	</item>
+        <item>	208	. 	ACOMPAÑANTE DE UN VIAJE	</item>
+        <item>	210	. 	EVENTO  DEPORTIVO	</item>
+        <item>	211	. 	VOLUNTARIADO NO REMUNERADO	</item>
+        <item>	291	. 	VACACIONES DE PUENTE, FESTIVIDAD LOCAL, FIN DE SEMANA, ETC	</item>
+        <item>	292	. 	VACACIONES &lt;=7 DIAS	</item>
+        <item>	293	. 	VACACIONES &gt;7 DIAS	</item>
+        <item>	294	. 	VIAJE DE NOVIOS	</item>
+        <item>	295	. 	VACACIONES CRUCERO	</item>
+
+    </string-array>
+    <integer-array name="p14values">
+        <item>	0	</item>
+        <item>	101	</item>
+        <item>	102	</item>
+        <item>	103	</item>
+        <item>	104	</item>
+        <item>	105	</item>
+        <item>	106	</item>
+        <item>	201	</item>
+        <item>	202	</item>
+        <item>	203	</item>
+        <item>	204	</item>
+        <item>	205	</item>
+        <item>	206	</item>
+        <item>	207	</item>
+        <item>	208	</item>
+        <item>	210	</item>
+        <item>	211	</item>
+        <item>	291	</item>
+        <item>	292	</item>
+        <item>	293	</item>
+        <item>	294	</item>
+        <item>	295	</item>
+    </integer-array>
+
+
+    <string-array name="p14stringsWhitoutOthers">
+        <item>	…	</item>
+        <item>	101	. 	NEGOCIO,EXCEPTO EXPOSICIONES	</item>
+        <item>	102	. 	ASISTENCIA A EXPOSICIONES,CONGRESOS,FERIAS,ETC	</item>
+        <item>	103	. 	RESOLUCION DE ASUNTOS RELATIVOS A LAS ADMINISTRACIONES CIVIL,MILITAR O ECLESIASTICA	</item>
+        <item>	104	. 	TRABAJO ESTABLE EN EL EXTRANJERO > 90 DIAS	</item>
+        <item>	105	. 	PRACTICA DE UN DEPORTE COMO PROFESIONAL	</item>
+        <item>	106	. 	ESTUDIOS PAGADOS POR LA EMPRESA	</item>
+        <item>	201	. 	ESTUDIOS	</item>
+        <item>	202	. 	VISITA A PARIENTES Y AMIGOS	</item>
+        <item>	203	. 	EXTRANJERO O FORASTERO NACIONAL CON SEGUNDA RESIDENCIA LOCAL	</item>
+        <item>	204	. 	MIGRACION O CAMBIO DE RESIDENCIA	</item>
+        <item>	205	. 	TRATAMIENTO MEDICO	</item>
+        <item>	206	. 	PRACTICA DE UN DEPORTE	</item>
+        <item>	207	. 	COMPRAS	</item>
+        <item>	208	. 	ACOMPAÑANTE DE UN VIAJE	</item>
+        <item>	210	. 	EVENTO  DEPORTIVO	</item>
+        <item>	211	. 	VOLUNTARIADO NO REMUNERADO	</item>
+        <item>	291	. 	VACACIONES DE PUENTE,FESTIVIDAD LOCAL,FIN DE SEMANA,ETC	</item>
+        <item>	292	. 	VACACIONES &lt;=7 DIAS	</item>
+        <item>	293	. 	VACACIONES &gt;7 DIAS	</item>
+        <item>	294	. 	VIAJE DE NOVIOS	</item>
+        <item>	295	. 	VACACIONES CRUCERO	</item>
+
+
+    </string-array>
+    <integer-array name="p14valuesWithoutOthers">
+        <item>	0	</item>
+        <item>	101	</item>
+        <item>	102	</item>
+        <item>	103	</item>
+        <item>	104	</item>
+        <item>	105	</item>
+        <item>	106	</item>
+        <item>	201	</item>
+        <item>	202	</item>
+        <item>	203	</item>
+        <item>	204	</item>
+        <item>	205	</item>
+        <item>	206	</item>
+        <item>	207	</item>
+        <item>	208	</item>
+        <item>	210	</item>
+        <item>	211	</item>
+        <item>	291	</item>
+        <item>	292	</item>
+        <item>	293	</item>
+        <item>	294	</item>
+        <item>	295	</item>
+    </integer-array>
+    //End of P14 Dictionaries
+
+
+    //P27
+    <string-array name="p27strings">
+        <item> ... </item>
+        <item>	1	. 	Duración total del viaje	</item>
+        <item>	2	. 	Mayor comodidad	</item>
+        <item>	3	. 	Precio más económico 	</item>
+        <item>	6	. 	Proximidad a mi origen o destino	</item>
+        <item>	7	. 	Mayor seguridad para los viajeros	</item>
+        <item>	8	. 	Mayor disponibilidad Horario-Frecuencias	</item>
+        <item>	10	. 	Atencion Personal	</item>
+        <item>	91	. 	Otros	</item>
+    </string-array>
+    <integer-array name="p27values">
+        <item>	0	</item>
+        <item>	1	</item>
+        <item>	2	</item>
+        <item>	3	</item>
+        <item>	6	</item>
+        <item>	7	</item>
+        <item>	8	</item>
+        <item>	10	</item>
+        <item>	91	</item>
+    </integer-array>
+    //End of P27
+
+    //P30b Dictionaries
+    <string-array name="p30bstrings">
+        <item> 			…	</item>
+        <item> 	1	. 	Alimentación (típicos y delicatessen)	</item>
+        <item> 	2	. 	Calzado	</item>
+        <item> 	3	. 	Complementos	</item>
+        <item> 	4	. 	Deportes (incluye caza y pesca)	</item>
+        <item> 	5	. 	Joyeria y relojeria	</item>
+        <item> 	6	. 	Juguetes y artículos infantiles	</item>
+        <item> 	7	. 	Lotería y Apuestas	</item>
+        <item> 	8	. 	Moda (Ropa y Marcas)	</item>
+        <item> 	9	. 	Musica y electronica	</item>
+        <item> 	10	. 	Optica	</item>
+        <item> 	11	. 	Perfumería y cosmética	</item>
+        <item> 	12	. 	Prensa y Libros	</item>
+        <item> 	13	. 	Souvenirs (regalos y bisutería)	</item>
+        <item> 	14	. 	Tabaco	</item>
+        <item> 	15	. 	Vinos y Licores	</item>
+        <item> 	16	. 	Snacks, dulces y bedidas (maquinas expendedoras)	</item>
+        <item> 	99	. 	Otros	</item>
+    </string-array>
+    <integer-array name="p30bvalues">
+        <item> 	0	</item>
+        <item> 	1	</item>
+        <item> 	2	</item>
+        <item> 	3	</item>
+        <item> 	4	</item>
+        <item> 	5	</item>
+        <item> 	6	</item>
+        <item> 	7	</item>
+        <item> 	8	</item>
+        <item> 	9	</item>
+        <item> 	10	</item>
+        <item> 	11	</item>
+        <item> 	12	</item>
+        <item> 	13	</item>
+        <item> 	14	</item>
+        <item> 	15	</item>
+        <item> 	16	</item>
+        <item> 	99	</item>
+    </integer-array>
+    //End of P30b Dictionaries
+
+
+
+    //P33
+    <string-array name="p33strings">
+        <item>	…	</item>
+        <item>	1	. 	Agricultura, pesca y ganaderia	</item>
+        <item>	2	. 	Industria (ext. y manuf.)	</item>
+        <item>	3	. 	Comercio y alimentacion	</item>
+        <item>	4	. 	Construccion	</item>
+        <item>	5	. 	Educacion	</item>
+        <item>	6	. 	Servicios publicos	</item>
+        <item>	7	. 	Turismo y Ocio	</item>
+        <item>	8	. 	Energia y agua	</item>
+        <item>	9	. 	Sanidad y serv. sociales	</item>
+        <item>	10	. 	Transporte y Correos	</item>
+        <item>	11	. 	Banca y seguros	</item>
+        <item>	12	. 	Organismos oficiales intern.	</item>
+        <item>	13	. 	Actividades inmobiliarias	</item>
+        <item>	14	. 	Petroquimica	</item>
+        <item>	15	. 	Automovil	</item>
+        <item>	16	. 	Medios de comunicacion	</item>
+        <item>	17	. 	Telecomunicaciones	</item>
+        <item>	18	. 	Publicidad y marketing	</item>
+        <item>	19	. 	Consultoria y abogacia	</item>
+        <item>	20	. 	Actividades informaticas	</item>
+        <item>	21	. 	Seguridad y Proteccion	</item>
+        <item>	99	. 	Otra actividad	</item>
+    </string-array>
+    <integer-array name="p33values">
+        <item> 	0	</item>
+        <item>	1	</item>
+        <item>	2	</item>
+        <item>	3	</item>
+        <item>	4	</item>
+        <item>	5	</item>
+        <item>	6	</item>
+        <item>	7	</item>
+        <item>	8	</item>
+        <item>	9	</item>
+        <item>	10	</item>
+        <item>	11	</item>
+        <item>	12	</item>
+        <item>	13	</item>
+        <item>	14	</item>
+        <item>	15	</item>
+        <item>	16	</item>
+        <item>	17	</item>
+        <item>	18	</item>
+        <item>	19	</item>
+        <item>	20	</item>
+        <item>	21	</item>
+        <item>	99	</item>
+    </integer-array>
+
+</resources>

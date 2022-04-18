@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="germanyAreasStrings">
+        <item>	…	</item>
+        <item>	003	. 	BERLIN	</item>
+        <item>	004	. 	BRANDENBURG	</item>
+        <item>	005	. 	BREMEN	</item>
+        <item>	006	. 	HAMBURG	</item>
+        <item>	008	. 	MEKLENBURG-VORPOMMERN	</item>
+        <item>	00C	. 	SAARLAND	</item>
+        <item>	00D	. 	SACHSEN	</item>
+        <item>	00F	. 	SCHLESWIG-HOLSTEIN	</item>
+        <item>	00G	. 	THURINGEN	</item>
+        <item>	011	. 	STUTTGART	</item>
+        <item>	012	. 	KARLSRUHE	</item>
+        <item>	013	. 	FREIBURG	</item>
+        <item>	014	. 	TUBINGEN	</item>
+        <item>	021	. 	OBERBAYERN	</item>
+        <item>	022	. 	NIEDERBAYERN	</item>
+        <item>	023	. 	OBERPFALZ	</item>
+        <item>	024	. 	OBERFRANKEN	</item>
+        <item>	025	. 	MITTELFRANKEN	</item>
+        <item>	026	. 	UNTERFRANKEN	</item>
+        <item>	027	. 	SCHWABEN	</item>
+        <item>	071	. 	DARMSTADT	</item>
+        <item>	072	. 	GIEBEN	</item>
+        <item>	073	. 	KASSEL	</item>
+        <item>	091	. 	BRAUNSCHWEIG	</item>
+        <item>	092	. 	HANNOVER	</item>
+        <item>	093	. 	LUNEBURG	</item>
+        <item>	094	. 	WESER-EMS	</item>
+        <item>	0A1	. 	DUSSELDORF	</item>
+        <item>	0A2	. 	KOLN	</item>
+        <item>	0A3	. 	MUNSTER	</item>
+        <item>	0A4	. 	DETMOLD	</item>
+        <item>	0A5	. 	ARNSBERG	</item>
+        <item>	0B1	. 	KOBLENZ	</item>
+        <item>	0B2	. 	TRIER	</item>
+        <item>	0B3	. 	RHEINHESSEN-PFALZ	</item>
+        <item>	0E1	. 	DESSAU	</item>
+        <item>	0E2	. 	HALLE	</item>
+        <item>	0E3	. 	MAGDEBURG	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="germanyAreasCodes">
+        <item>	0	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	008	</item>
+        <item>	00C	</item>
+        <item>	00D	</item>
+        <item>	00F	</item>
+        <item>	00G	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	023	</item>
+        <item>	024	</item>
+        <item>	025	</item>
+        <item>	026	</item>
+        <item>	027	</item>
+        <item>	071	</item>
+        <item>	072	</item>
+        <item>	073	</item>
+        <item>	091	</item>
+        <item>	092	</item>
+        <item>	093	</item>
+        <item>	094	</item>
+        <item>	0A1	</item>
+        <item>	0A2	</item>
+        <item>	0A3	</item>
+        <item>	0A4	</item>
+        <item>	0A5	</item>
+        <item>	0B1	</item>
+        <item>	0B2	</item>
+        <item>	0B3	</item>
+        <item>	0E1	</item>
+        <item>	0E2	</item>
+        <item>	0E3	</item>
+        <item>	999	</item>
+    </string-array>
+
+    
+    
+    <string-array name="austriaAreasStrings">
+        <item>	…	</item>
+        <item>	011	. 	Burgenland	</item>
+        <item>	012	. 	Niederosterreich	</item>
+        <item>	013	. 	Wien(Viena)	</item>
+        <item>	021	. 	Karnten	</item>
+        <item>	022	. 	Steiemark	</item>
+        <item>	031	. 	Oberosterreich	</item>
+        <item>	032	. 	Salzburg	</item>
+        <item>	033	. 	Tirol	</item>
+        <item>	034	. 	Voralberg	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="austriaAreasCodes">
+        <item>	0	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	031	</item>
+        <item>	032	</item>
+        <item>	033	</item>
+        <item>	034	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="denmarkAreasStrings">
+        <item>	…	</item>
+        <item>	00F	. 	Nordjyllands Amt	</item>
+        <item>	008	. 	Fyns	</item>
+        <item>	009	. 	Arhus, Viborg...	</item>
+        <item>	010	. 	Ribe, Vejle...	</item>
+        <item>	011	. 	Copenague......	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+
+    </string-array>
+    <string-array name="denmarkAreasCodes">
+        <item>	0	</item>
+        <item>	00F	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	011	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="finlandAreasStrings">
+        <item>	…	</item>
+        <item>	011	. 	Uusimaa	</item>
+        <item>	012	. 	Etela-Suomi	</item>
+        <item>	013	. 	Ita-Suomi	</item>
+        <item>	014	. 	Vali-Suomi	</item>
+        <item>	015	. 	Pohjois-Suomi	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="finlandAreasCodes">
+        <item>	0	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	015	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="franceAreasStrings">
+        <item>	…	</item>
+        <item>	001	. 	ILE DE FRANCE	</item>
+        <item>	003	. 	NORD-PAS DE CALAIS	</item>
+        <item>	021	. 	CHAMPAGNE-ARDENNE	</item>
+        <item>	022	. 	PICARDIE	</item>
+        <item>	023	. 	HAUTE-NORMANDIE	</item>
+        <item>	024	. 	CENTRE	</item>
+        <item>	025	. 	BASSE-NORMANDIE	</item>
+        <item>	026	. 	BOURGOGNE	</item>
+        <item>	041	. 	LORRAINE	</item>
+        <item>	042	. 	ALSACE	</item>
+        <item>	043	. 	FRANCHE-COMTE	</item>
+        <item>	051	. 	PAYS DE LA LOIRE	</item>
+        <item>	052	. 	BRETAGNE	</item>
+        <item>	053	. 	POITOU-CHARENTES	</item>
+        <item>	061	. 	AQUITAINE	</item>
+        <item>	062	. 	MIDI-PYRENEES	</item>
+        <item>	063	. 	LIMOUSIN	</item>
+        <item>	071	. 	RHONE-ALPES	</item>
+        <item>	072	. 	AUVERGNE	</item>
+        <item>	081	. 	LANGUEDOC-ROUSSILLON	</item>
+        <item>	082	. 	PROVENCE-ALPES-COTE DAZUR	</item>
+        <item>	083	. 	CORSE	</item>
+        <item>	091	. 	GUADELOUPE	</item>
+        <item>	092	. 	MARTINIQUE	</item>
+        <item>	093	. 	GUYANE	</item>
+        <item>	094	. 	REUNION	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+
+    </string-array>
+    <string-array name="franceAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	003	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	023	</item>
+        <item>	024	</item>
+        <item>	025	</item>
+        <item>	026	</item>
+        <item>	041	</item>
+        <item>	042	</item>
+        <item>	043	</item>
+        <item>	051	</item>
+        <item>	052	</item>
+        <item>	053	</item>
+        <item>	061	</item>
+        <item>	062	</item>
+        <item>	063	</item>
+        <item>	071	</item>
+        <item>	072	</item>
+        <item>	081	</item>
+        <item>	082	</item>
+        <item>	083	</item>
+        <item>	091	</item>
+        <item>	092	</item>
+        <item>	093	</item>
+        <item>	094	</item>s
+        <item>	999	</item>
+    </string-array>
+    
+    
+    
+    <string-array name="italyAreasStrings">
+        <item>	…	</item>
+        <item>	002	. 	Lombardia	</item>
+        <item>	004	. 	Emilia-Romagna	</item>
+        <item>	006	. 	Lazio	</item>
+        <item>	008	. 	Campania	</item>
+        <item>	00A	. 	Sicilia	</item>
+        <item>	00B	. 	Sardegna	</item>
+        <item>	011	. 	Piamonte	</item>
+        <item>	012	. 	Valle D.Aosta	</item>
+        <item>	013	. 	Liguria	</item>
+        <item>	031	. 	Trentini-Alto Adige	</item>
+        <item>	032	. 	Veneto	</item>
+        <item>	033	. 	Friuli-Venezia Giulia	</item>
+        <item>	051	. 	Toscana	</item>
+        <item>	052	. 	Umbria	</item>
+        <item>	053	. 	Marche	</item>
+        <item>	071	. 	Abruzzo	</item>
+        <item>	091	. 	Puglia	</item>
+        <item>	092	. 	Basilicata	</item>
+        <item>	093	. 	Calabria	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="italyAreasCodes">
+        <item>	0	</item>
+        <item>	002	</item>
+        <item>	004	</item>
+        <item>	006	</item>
+        <item>	008	</item>
+        <item>	00A	</item>
+        <item>	00B	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	031	</item>
+        <item>	032	</item>
+        <item>	033	</item>
+        <item>	051	</item>
+        <item>	052	</item>
+        <item>	053	</item>
+        <item>	071	</item>
+        <item>	091	</item>
+        <item>	092	</item>
+        <item>	093	</item>
+        <item>	999	</item>
+    </string-array>
+    
+    
+    
+    <string-array name="norwayAreasStrings">
+        <item>	…	</item>
+        <item>	011	. 	Akershus	</item>
+        <item>	018	. 	Aust Agder	</item>
+        <item>	006	. 	Buskerud	</item>
+        <item>	016	. 	Estfol	</item>
+        <item>	001	. 	Finmark	</item>
+        <item>	010	. 	Hedmark	</item>
+        <item>	014	. 	Hordaland	</item>
+        <item>	004	. 	More Og Romsdal	</item>
+        <item>	013	. 	Nordland	</item>
+        <item>	002	. 	Nord-Trodelang	</item>
+        <item>	005	. 	Oppland	</item>
+        <item>	017	. 	Ostfold	</item>
+        <item>	007	. 	Rodalan	</item>
+        <item>	009	. 	Song Og Fjordane	</item>
+        <item>	003	. 	Sor-Trodelang	</item>
+        <item>	015	. 	Telemark	</item>
+        <item>	008	. 	Troms	</item>
+        <item>	012	. 	Vest Agder	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="norwayAreasCodes">
+        <item>	0	</item>
+        <item>	011	</item>
+        <item>	018	</item>
+        <item>	006	</item>
+        <item>	016	</item>
+        <item>	001	</item>
+        <item>	010	</item>
+        <item>	014	</item>
+        <item>	004	</item>
+        <item>	013	</item>
+        <item>	002	</item>
+        <item>	005	</item>
+        <item>	017	</item>
+        <item>	007	</item>
+        <item>	009	</item>
+        <item>	003	</item>
+        <item>	015	</item>
+        <item>	008	</item>
+        <item>	012	</item>
+        <item>	999	</item>
+    </string-array>
+    
+    
+    <string-array name="hollandAreasStrings">
+        <item>  …	</item>
+        <item>	001	. 	Noord- Nederland	</item>
+        <item>	002	. 	Oost- Nederland	</item>
+        <item>	003	. 	West- Nederland	</item>
+        <item>	004	. 	Zuid- Nederland	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="hollandAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="portugalAreasStrings">
+        <item>	…	</item>
+        <item>	002	. 	Azores	</item>
+        <item>	003	. 	Madeira	</item>
+        <item>	011	. 	Norte	</item>
+        <item>	012	. 	Centro	</item>
+        <item>	013	. 	Lisboa E Vale Do Tejo	</item>
+        <item>	014	. 	Alentejo	</item>
+        <item>	015	. 	Algarve	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="portugalAreasCodes">
+        <item>	0	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	015	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="englandAreasStrings">
+        <item>	…	</item>
+        <item>	00B	. 	NORTHERN IRELAND	</item>
+        <item>	011	. 	CLEVELAND, DURHAM	</item>
+        <item>	012	. 	CUMBRIA	</item>
+        <item>	013	. 	NORTHUMBERLAND, TYNE AND WEAR	</item>
+        <item>	021	. 	HUMBERSIDE	</item>
+        <item>	022	. 	NORTH YORKSHIRE	</item>
+        <item>	023	. 	SOUTH YORKSHIRE	</item>
+        <item>	024	. 	WEST YORKSHIRE	</item>
+        <item>	031	. 	DERBYSHIRE, NOTTINGHAMSHIRE	</item>
+        <item>	032	. 	LEICESTERSHIRE,NORTHAMPTONSHIR	</item>
+        <item>	033	. 	LINCOLNSHIRE	</item>
+        <item>	051	. 	BEDFORDSHIRE, HERTFORDSHIRE	</item>
+        <item>	052	. 	BERKSHIRE,BUCKINGHAMSHIRE,OXFO	</item>
+        <item>	053	. 	SURREY, EAST-WEST SUSSEX	</item>
+        <item>	054	. 	ESSEX	</item>
+        <item>	055	. 	GREATER LONDON	</item>
+        <item>	056	. 	HAMPSHIRE, ISLE MOF WIGHT	</item>
+        <item>	057	. 	KENT	</item>
+        <item>	061	. 	AVON,GLOUCESTERSHIRE,WILTSHIRE	</item>
+        <item>	062	. 	CORNWALL,DEVON	</item>
+        <item>	063	. 	DORSET,SOMERSET	</item>
+        <item>	071	. 	HEREFORD &amp; WORCESTER,WARWICKSH	</item>
+        <item>	072	. 	SHROPSHIRE, STAFFORDSHIRE	</item>
+        <item>	073	. 	WEST MIDLANDS	</item>
+        <item>	081	. 	CHESHIRE	</item>
+        <item>	082	. 	GREATER MANCHESTER	</item>
+        <item>	083	. 	LANCASHIRE	</item>
+        <item>	084	. 	MERSEYSIDE	</item>
+        <item>	091	. 	CLWYD,DIFED,GWYNEDD,POWYS	</item>
+        <item>	092	. 	GWENT,MID-SOUTH-WEST GLAMORGAN	</item>
+        <item>	0A1	. 	BORDERS-CENTRAL-LOTHIAN-TAYSID	</item>
+        <item>	0A2	. 	DUMFRIES-GALLOWAY,STRATHCLYDE	</item>
+        <item>	0A3	. 	HIGHLANDS	</item>
+        <item>	0A4	. 	GRAMPIAM	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="englandAreasCodes">
+        <item>	0	</item>
+        <item>	00B	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	023	</item>
+        <item>	024	</item>
+        <item>	031	</item>
+        <item>	032	</item>
+        <item>	033	</item>
+        <item>	051	</item>
+        <item>	052	</item>
+        <item>	053	</item>
+        <item>	054	</item>
+        <item>	055	</item>
+        <item>	056	</item>
+        <item>	057	</item>
+        <item>	061	</item>
+        <item>	062	</item>
+        <item>	063	</item>
+        <item>	071	</item>
+        <item>	072	</item>
+        <item>	073	</item>
+        <item>	081	</item>
+        <item>	082	</item>
+        <item>	083	</item>
+        <item>	084	</item>
+        <item>	091	</item>
+        <item>	092	</item>
+        <item>	0A1	</item>
+        <item>	0A2	</item>
+        <item>	0A3	</item>
+        <item>	0A4	</item>
+        <item>	999	</item>
+    </string-array>
+    
+    
+    <string-array name="swedenAreasStrings">
+        <item>	…	</item>
+        <item>	001	. 	ESTOCOLMO	</item>
+        <item>	002	. 	OSTRA MELLANSVERIGE	</item>
+        <item>	003	. 	SMALAND MED OARNA	</item>
+        <item>	004	. 	SYDSVERIGE	</item>
+        <item>	005	. 	VASTVERIGE	</item>
+        <item>	006	. 	NORRA MELLANSVERIGE	</item>
+        <item>	007	. 	MELLERSTA NORRLAND	</item>
+        <item>	008	. 	OVRE NORRLAND	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="swedenAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+
+    <string-array name="switzerlandAreasStrings">
+        <item>			…	</item>
+        <item>	001	. 	GRAUBUNDEN	</item>
+        <item>	002	. 	SCHAFFHAUSEN......	</item>
+        <item>	003	. 	ZURICH, ZUG	</item>
+        <item>	004	. 	LUCEME, URI.....	</item>
+        <item>	005	. 	BASILEA....	</item>
+        <item>	006	. 	JURA, NEUCHATEL...	</item>
+        <item>	007	. 	GINEBRA, MONTREUX....	</item>
+        <item>	008	. 	VALAIS	</item>
+        <item>	009	. 	TICINO	</item>
+        <item>	010	. 	BERNA, INTERLAKEN	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="switzerlandAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="argentinaAreasStrings">
+        <item>	…	</item>
+        <item>	001	. 	JUJUY	</item>
+        <item>	002	. 	FORMOSA	</item>
+        <item>	003	. 	CATAMARCA	</item>
+        <item>	004	. 	TUCUMAN	</item>
+        <item>	005	. 	CORRIENTES	</item>
+        <item>	006	. 	MISIONES	</item>
+        <item>	007	. 	NEUQUEN	</item>
+        <item>	008	. 	TIERRA DEL FUEGO	</item>
+        <item>	009	. 	SANTA CRUZ	</item>
+        <item>	010	. 	CHUBUT	</item>
+        <item>	011	. 	RIO NEGRO	</item>
+        <item>	012	. 	LA PAMPA	</item>
+        <item>	013	. 	BUENOS AIRES	</item>
+        <item>	014	. 	MENDOZA	</item>
+        <item>	015	. 	SAN LUIS	</item>
+        <item>	016	. 	CORDOBA	</item>
+        <item>	017	. 	SANTA FE	</item>
+        <item>	018	. 	ENTRERIOS	</item>
+        <item>	019	. 	SAN JUAN	</item>
+        <item>	020	. 	LA RIOJA	</item>
+        <item>	021	. 	SANTIAGO DEL ESTERO	</item>
+        <item>	022	. 	CHACO	</item>
+        <item>	023	. 	SALTA	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="argentinaAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	015	</item>
+        <item>	016	</item>
+        <item>	017	</item>
+        <item>	018	</item>
+        <item>	019	</item>
+        <item>	020	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	023	</item>
+        <item>	999	</item>
+    </string-array>
+    
+    
+    <string-array name="brasilAreasStrings">
+        <item>	…	</item>
+        <item>	001	. 	RIO GRANDE DO NORTE	</item>
+        <item>	002	. 	PARAIBA	</item>
+        <item>	003	. 	PERNAMBUCO	</item>
+        <item>	004	. 	ALAGOAS	</item>
+        <item>	005	. 	SERGIPE	</item>
+        <item>	006	. 	DISTRITO FEDERAL	</item>
+        <item>	007	. 	ESPIRITO SANTO	</item>
+        <item>	008	. 	RIO DE JANEIRO	</item>
+        <item>	009	. 	SANTA CATERINA	</item>
+        <item>	010	. 	RIO GRANDE DO SUL	</item>
+        <item>	011	. 	PARANA	</item>
+        <item>	012	. 	SAO PAULO	</item>
+        <item>	013	. 	MATO GROSSO DO SUL	</item>
+        <item>	014	. 	MINAS GERAIS	</item>
+        <item>	015	. 	GOIAS	</item>
+        <item>	016	. 	BAHIA	</item>
+        <item>	017	. 	MATO GROSSO	</item>
+        <item>	018	. 	RONDONIA	</item>
+        <item>	019	. 	PIAUI	</item>
+        <item>	020	. 	CEARA	</item>
+        <item>	021	. 	MARANHAO	</item>
+        <item>	022	. 	PARA	</item>
+        <item>	023	. 	AMAPA	</item>
+        <item>	024	. 	AMAZONAS	</item>
+        <item>	025	. 	RORAIMA	</item>
+        <item>	026	. 	ACRE	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="brasilAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	015	</item>
+        <item>	016	</item>
+        <item>	017	</item>
+        <item>	018	</item>
+        <item>	019	</item>
+        <item>	020	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	023	</item>
+        <item>	024	</item>
+        <item>	025	</item>
+        <item>	026	</item>
+        <item>	999	</item>
+    </string-array>
+    
+    
+    <string-array name="canadaAreasStrings">
+        <item>	…	</item>
+        <item>	001	.	YUKON	</item>
+        <item>	002	.	TERRITORIOS DEL NOROESTE	</item>
+        <item>	003	.	COLUMBIA BRITANICA	</item>
+        <item>	004	.	ALBERTA	</item>
+        <item>	005	.	SASKATCHEWAN	</item>
+        <item>	006	.	MANITOBA	</item>
+        <item>	007	.	ONTARIO	</item>
+        <item>	008	.	QUEBEC	</item>
+        <item>	009	.	TERRANOVA	</item>
+        <item>	010	.	ISLA DEL PRINCIPE EDUARDO	</item>
+        <item>	011	.	NUEVA BRUNSWICK	</item>
+        <item>	012	.	NUEVA ESCOCIA	</item>
+        <item>	999	.	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="canadaAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="usaAreasStrings">
+        <item>	…	</item>
+        <item>	001	. 	WASHINGTON	</item>
+        <item>	002	. 	OREGON	</item>
+        <item>	003	. 	CALIFORNIA	</item>
+        <item>	004	. 	ARIZONA	</item>
+        <item>	005	. 	NEVADA	</item>
+        <item>	006	. 	IDAHO	</item>
+        <item>	007	. 	MONTANA	</item>
+        <item>	008	. 	WYOMING	</item>
+        <item>	009	. 	UTAH	</item>
+        <item>	010	. 	NUEVO MEXICO	</item>
+        <item>	011	. 	COLORADO	</item>
+        <item>	012	. 	TEXAS	</item>
+        <item>	013	. 	OKLAHOMA	</item>
+        <item>	014	. 	KANSAS	</item>
+        <item>	015	. 	NEBRASKA	</item>
+        <item>	016	. 	DAKOTA DEL SUR	</item>
+        <item>	017	. 	DAKOTA DEL NORTE	</item>
+        <item>	018	. 	LUISIANA	</item>
+        <item>	019	. 	ARKANSAS	</item>
+        <item>	020	. 	MISURI	</item>
+        <item>	021	. 	IOWA	</item>
+        <item>	022	. 	MINNESOTA	</item>
+        <item>	023	. 	MISISIPI	</item>
+        <item>	024	. 	ILLINOIS	</item>
+        <item>	025	. 	WISCONSIN	</item>
+        <item>	026	. 	ALABAMA	</item>
+        <item>	027	. 	TENESSEE	</item>
+        <item>	028	. 	KENTUCKY	</item>
+        <item>	029	. 	INDIANA	</item>
+        <item>	030	. 	MICHIGAN	</item>
+        <item>	031	. 	FLORIDA	</item>
+        <item>	032	. 	GEORGIA	</item>
+        <item>	033	. 	OHIO	</item>
+        <item>	034	. 	CAROLINA DEL SUR	</item>
+        <item>	035	. 	CAROLINA DEL NORTE	</item>
+        <item>	036	. 	VIRGINIA OCCIDENTAL	</item>
+        <item>	037	. 	PENSILVANIA	</item>
+        <item>	038	. 	NUEVA YORK	</item>
+        <item>	039	. 	VIRGINIA	</item>
+        <item>	040	. 	MARYLAND	</item>
+        <item>	041	. 	DELAWARE	</item>
+        <item>	042	. 	NUEVA JERSEY	</item>
+        <item>	043	. 	CONNECTICUT	</item>
+        <item>	044	. 	RHODE ISLAND	</item>
+        <item>	045	. 	MASSACHUSETS	</item>
+        <item>	046	. 	VERMONT	</item>
+        <item>	047	. 	NUEVO HAMPSHIRE	</item>
+        <item>	048	. 	MAINE	</item>
+        <item>	049	. 	ALASKA	</item>
+        <item>	050	. 	HAWAI	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="usaAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	015	</item>
+        <item>	016	</item>
+        <item>	017	</item>
+        <item>	018	</item>
+        <item>	019	</item>
+        <item>	020	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	023	</item>
+        <item>	024	</item>
+        <item>	025	</item>
+        <item>	026	</item>
+        <item>	027	</item>
+        <item>	028	</item>
+        <item>	029	</item>
+        <item>	030	</item>
+        <item>	031	</item>
+        <item>	032	</item>
+        <item>	033	</item>
+        <item>	034	</item>
+        <item>	035	</item>
+        <item>	036	</item>
+        <item>	037	</item>
+        <item>	038	</item>
+        <item>	039	</item>
+        <item>	040	</item>
+        <item>	041	</item>
+        <item>	042	</item>
+        <item>	043	</item>
+        <item>	044	</item>
+        <item>	045	</item>
+        <item>	046	</item>
+        <item>	047	</item>
+        <item>	048	</item>
+        <item>	049	</item>
+        <item>	050	</item>
+        <item>	999	</item>
+    </string-array>
+    
+    
+    
+    <string-array name="morrocoAreasStrings">
+        <item>	…	</item>
+        <item>	001	. 	DAKHLA	</item>
+        <item>	002	. 	LAAYOUNE	</item>
+        <item>	003	. 	GUELMIM	</item>
+        <item>	004	. 	AGADIR-IDDA OU	</item>
+        <item>	005	. 	KENITRA	</item>
+        <item>	006	. 	SETTAT	</item>
+        <item>	007	. 	MARRAKECH	</item>
+        <item>	008	. 	OUJDA-ANGAD	</item>
+        <item>	009	. 	CASA-ANFA	</item>
+        <item>	010	. 	RABAT	</item>
+        <item>	011	. 	SAFI	</item>
+        <item>	012	. 	BENI MELLAL	</item>
+        <item>	013	. 	MEKNES	</item>
+        <item>	014	. 	FES JEDID-DARDBIBEGH	</item>
+        <item>	015	. 	AL HOCEIMA	</item>
+        <item>	016	. 	TANGER	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="morrocoAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	015	</item>
+        <item>	016	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+    <string-array name="mexicoAreasStrings">
+        <item>	…	</item>
+        <item>	001	. 	BAJA CALIFORNIA NORTE	</item>
+        <item>	002	. 	BAJA CALIFORNIA SUR	</item>
+        <item>	003	. 	SINALOA	</item>
+        <item>	004	. 	NUEVO LEON	</item>
+        <item>	005	. 	TAMAULIPAS	</item>
+        <item>	006	. 	ZACATECAS	</item>
+        <item>	007	. 	NAYARIT	</item>
+        <item>	008	. 	AGUASCALIENTES	</item>
+        <item>	009	. 	GUANAJUATO	</item>
+        <item>	010	. 	QUERETARO	</item>
+        <item>	011	. 	HIDALGO	</item>
+        <item>	012	. 	COLIMA	</item>
+        <item>	013	. 	MICHOACAN	</item>
+        <item>	014	. 	MEXICO	</item>
+        <item>	015	. 	MORELOS	</item>
+        <item>	016	. 	TLAXCALA	</item>
+        <item>	017	. 	PUEBLA	</item>
+        <item>	018	. 	VERACRUZ	</item>
+        <item>	019	. 	TABASCO	</item>
+        <item>	020	. 	CAMPECHE	</item>
+        <item>	021	. 	YUCATAN	</item>
+        <item>	022	. 	QUINTANA ROO	</item>
+        <item>	023	. 	CHIAPAS	</item>
+        <item>	024	. 	OAXACA	</item>
+        <item>	025	. 	GUERRERO	</item>
+        <item>	026	. 	JALISCO	</item>
+        <item>	027	. 	SAN LUIS POTOSI	</item>
+        <item>	028	. 	COAHUILA	</item>
+        <item>	029	. 	DURANGO	</item>
+        <item>	030	. 	CHIHUAHUA	</item>
+        <item>	031	. 	SONORA	</item>
+        <item>	032	. 	CIUDAD DE MEXICO	</item>
+        <item>	999	. 	DESCONOCIDO	</item>
+    </string-array>
+    <string-array name="mexicoAreasCodes">
+        <item>	0	</item>
+        <item>	001	</item>
+        <item>	002	</item>
+        <item>	003	</item>
+        <item>	004	</item>
+        <item>	005	</item>
+        <item>	006	</item>
+        <item>	007	</item>
+        <item>	008	</item>
+        <item>	009	</item>
+        <item>	010	</item>
+        <item>	011	</item>
+        <item>	012	</item>
+        <item>	013	</item>
+        <item>	014	</item>
+        <item>	015	</item>
+        <item>	016	</item>
+        <item>	017	</item>
+        <item>	018	</item>
+        <item>	019	</item>
+        <item>	020	</item>
+        <item>	021	</item>
+        <item>	022	</item>
+        <item>	023	</item>
+        <item>	024	</item>
+        <item>	025	</item>
+        <item>	026	</item>
+        <item>	027	</item>
+        <item>	028	</item>
+        <item>	029	</item>
+        <item>	030	</item>
+        <item>	031	</item>
+        <item>	032	</item>
+        <item>	999	</item>
+    </string-array>
+
+
+</resources>

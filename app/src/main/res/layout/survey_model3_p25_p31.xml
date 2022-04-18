@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--android:visibility="gone"
+    style="@style/SurveyQuestionsBox">-->
+
+
+    //P25
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P25"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_M3_P25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_M3_P25"
+            style="@style/SuveyQuestionTitle"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_padding">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P25_option3"
+                style="@style/SurveySubQuestion"/>
+            <EditText
+                android:id="@+id/survey_edit_M3_P25_numDias"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/SurveyQuestionEdit"
+                android:inputType="number"
+                android:maxLength="3"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    //End of P25
+
+
+
+
+    //P26
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P26"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_M3_P26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_M3_P26"
+            style="@style/SuveyQuestionTitle"/>
+        <RadioGroup
+            android:id="@+id/survey_radiogroup_M3_P26"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/survey_radio_M3_P26_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P26_option1"/>
+            <RadioButton
+                android:id="@+id/survey_radio_M3_P26_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P26_option2"/>
+            <RadioButton
+                android:id="@+id/survey_radio_M3_P26_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P26_option3"/>
+            <RadioButton
+                android:id="@+id/survey_radio_M3_P26_option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P26_option4"/>
+            <RadioButton
+                android:id="@+id/survey_radio_M3_P26_option5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P26_option5"/>
+        </RadioGroup>
+    </LinearLayout>
+    //End of P26
+
+
+
+    //P27
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_M3_P27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/survey_edit_M3_P27"
+            style="@style/SuveyQuestionTitle"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/survey_radiogroup_M3_P27"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/survey_radio_M3_P27_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_M3_P27_option1"/>
+                <RadioButton
+                    android:id="@+id/survey_radio_M3_P27_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_M3_P27_option2"/>
+
+            </RadioGroup>
+            <EditText
+                android:id="@+id/survey_edit_M3_P27_numViajes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/SurveyQuestionEdit"
+                android:inputType="number"
+                android:maxLength="3"
+                android:layout_gravity="bottom"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    //End of P27
+
+
+
+    //P28
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_M3_P28"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/survey_edit_M3_P28"
+            style="@style/SuveyQuestionTitle"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_padding">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P28_option2"
+                style="@style/SurveySubQuestion"/>
+            <EditText
+                android:id="@+id/survey_edit_M3_P28_numViajes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/SurveyQuestionEdit"
+                android:inputType="number"
+                android:maxLength="3"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    //End of P28
+
+
+
+
+
+    //P29
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P29"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_M3_P29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_M3_P29"
+            style="@style/SuveyQuestionTitle"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/survey_radiogroup_M3_P29"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/survey_radio_M3_P29_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_M3_P29_option1"/>
+                <RadioButton
+                    android:id="@+id/survey_radio_M3_P29_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_M3_P29_option2"/>
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:id="@+id/survey_layout_M3_P29_num"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_M3_P29b_option3"
+                    style="@style/SurveySubQuestion"/>
+                <EditText
+                    android:id="@+id/survey_edit_M3_P29b_numBultos"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    style="@style/SurveyQuestionEdit"
+                    android:inputType="number"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    //End of P29
+
+
+
+    //P30
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_M3_P30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/survey_edit_M3_P30"
+            style="@style/SuveyQuestionTitle"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_padding">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M3_P30_option3"
+                style="@style/SurveySubQuestion"/>
+            <EditText
+                android:id="@+id/survey_edit_M3_P30_numPersonas"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/SurveyQuestionEdit"
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    //End of P30
+
+
+
+    //P30b
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P30b"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SurveySingleQuestion"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/survey_text_M3_P30b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_M3_P30b"
+            style="@style/SuveyQuestionTitle"/>
+
+        <RadioGroup
+            android:id="@+id/survey_radiogroup_M3_P30b"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/survey_radio_M3_P30b_option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M2_P6_option1"/>
+            <RadioButton
+                android:id="@+id/survey_radio_M3_P30b_option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_M2_P6_option2"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    //End of P30b
+
+
+    //P31
+    <LinearLayout
+        android:id="@+id/survey_layout_M3_P31"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SurveySingleQuestion"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/survey_text_M3_P31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/survey_edit_M3_P31"
+            style="@style/SuveyQuestionTitle"/>
+        <RadioGroup
+            android:id="@+id/survey_radiogroup_M3_P31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/survey_radio_M3_P31_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_radio_M3_P31_option1"/>
+        <RadioButton
+            android:id="@+id/survey_radio_M3_P31_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_radio_M3_P31_option2"/>
+        <RadioButton
+            android:id="@+id/survey_radio_M3_P31_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_radio_M3_P31_option3"/>
+    </RadioGroup>
+    </LinearLayout>
+    //End of P31
+
+
+
+
+
+</LinearLayout>

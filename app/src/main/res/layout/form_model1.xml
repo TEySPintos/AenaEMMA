@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/survey_model1_p01_p04" />
+    <include layout="@layout/survey_model1_p05_p07" />
+    <include layout="@layout/survey_model1_p08_p13" />
+    <include layout="@layout/survey_model1_p14_p18" />
+    <include layout="@layout/survey_model1_p19_p25" />
+    <include layout="@layout/survey_model1_p26_p28" />
+    <include layout="@layout/survey_model1_p26b_p27b" />
+    <include layout="@layout/survey_model1_p29_p30" />
+    <include layout="@layout/survey_model1_p31_p36" />
+
+
+</LinearLayout>

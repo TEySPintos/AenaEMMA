@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="provinciaStrings">
+        <item>  …   </item>
+        <item>  ALAVA   </item>
+        <item>  ALBACETE    </item>
+        <item>  ALICANTE    </item>
+        <item>  ALMERIA </item>
+        <item>  AVILA   </item>
+        <item>  BADAJOZ </item>
+        <item>  ILLES BALEARS   </item>
+        <item>  BARCELONA   </item>
+        <item>  BURGOS  </item>
+        <item>  CACERES </item>
+        <item>  CADIZ   </item>
+        <item>  CASTELLON DE LA PLANA   </item>
+        <item>  CIUDAD REAL </item>
+        <item>  CORDOBA </item>
+        <item>  CORUÑA, A   </item>
+        <item>  CUENCA  </item>
+        <item>  GIRONA  </item>
+        <item>  GRANADA </item>
+        <item>  GUADALAJARA </item>
+        <item>  GUIPUZCOA   </item>
+        <item>  HUELVA  </item>
+        <item>  HUESCA  </item>
+        <item>  JAEN    </item>
+        <item>  LEON    </item>
+        <item>  LLEIDA  </item>
+        <item>  RIOJA,LA    </item>
+        <item>  LUGO    </item>
+        <item>  MADRID  </item>
+        <item>  MALAGA  </item>
+        <item>  MURCIA  </item>
+        <item>  NAVARRA </item>
+        <item>  OURENSE </item>
+        <item>  ASTURIAS    </item>
+        <item>  PALENCIA    </item>
+
+        <item>  LANZAROTE - LAS PALMAS  </item>
+        <item>  FUERTEVENTURA - LAS PALMAS  </item>
+        <item>  GRAN CANARIA - LAS PALMAS  </item>
+        <item>  PONTEVEDRA  </item>
+        <item>  SALAMANCA   </item>
+
+        <item>  TENERIFE - SANTA CRUZ DE TENERIFE  </item>
+        <item>  PALMA, LA - SANTA CRUZ DE TENERIFE  </item>
+        <item>  HIERRO, EL - SANTA CRUZ DE TENERIFE  </item>
+        <item>  GOMERA, LA - SANTA CRUZ DE TENERIFE  </item>
+        <item>  CANTABRIA   </item>
+        <item>  SEGOVIA </item>
+        <item>  SEVILLA </item>
+        <item>  SORIA   </item>
+        <item>  TARRAGONA   </item>
+        <item>  TERUEL  </item>
+        <item>  TOLEDO  </item>
+        <item>  VALENCIA    </item>
+        <item>  VALLADOLID  </item>
+        <item>  VIZCAYA </item>
+        <item>  ZAMORA  </item>
+        <item>  ZARAGOZA    </item>
+        <item>  CEUTA   </item>
+        <item>  MELILLA </item>
+        <item>  OTRAS </item>
+    </string-array>
+
+    <integer-array name="provinciaValues">
+        <item>  0   </item>
+        <item>  1   </item>
+        <item>  2   </item>
+        <item>  3   </item>
+        <item>  4   </item>
+        <item>  5   </item>
+        <item>  6   </item>
+        <item>  7   </item>
+        <item>  8   </item>
+        <item>  9   </item>
+        <item>  10  </item>
+        <item>  11  </item>
+        <item>  12  </item>
+        <item>  13  </item>
+        <item>  14  </item>
+        <item>  15  </item>
+        <item>  16  </item>
+        <item>  17  </item>
+        <item>  18  </item>
+        <item>  19  </item>
+        <item>  20  </item>
+        <item>  21  </item>
+        <item>  22  </item>
+        <item>  23  </item>
+        <item>  24  </item>
+        <item>  25  </item>
+        <item>  26  </item>
+        <item>  27  </item>
+        <item>  28  </item>
+        <item>  29  </item>
+        <item>  30  </item>
+        <item>  31  </item>
+        <item>  32  </item>
+        <item>  33  </item>
+        <item>  34  </item>
+
+        <item>  70  </item>
+        <item>  71  </item>
+        <item>  72  </item>
+        <item>  36  </item>
+        <item>  37  </item>
+
+        <item>  80  </item>
+        <item>  81  </item>
+        <item>  82  </item>
+        <item>  83  </item>
+        <item>  39  </item>
+        <item>  40  </item>
+        <item>  41  </item>
+        <item>  42  </item>
+        <item>  43  </item>
+        <item>  44  </item>
+        <item>  45  </item>
+        <item>  46  </item>
+        <item>  47  </item>
+        <item>  48  </item>
+        <item>  49  </item>
+        <item>  50  </item>
+        <item>  51  </item>
+        <item>  52  </item>
+        <item>  99  </item>
+    </integer-array>
+
+
+<!--
+    <string-array name="provinciaSVQStrings">
+        <item>	…	</item>
+        <item>	SEVILLA	</item>
+        <item>	CADIZ	</item>
+        <item>	JAEN	</item>
+        <item>	HUELVA	</item>
+        <item>	GRANADA	</item>
+        <item>	CORDOBA	</item>
+        <item>	BADAJOZ	</item>
+        <item>	MALAGA	</item>
+        <item>	CACERES	</item>
+        <item>	MADRID	</item>
+        <item>	BALEARES	</item>
+        <item>	LAS PALMAS	</item>
+        <item>	VALENCIA	</item>
+        <item>	SANTA CRUZ DE TENERIFE	</item>
+        <item>	ALMERIA	</item>
+        <item>	BARCELONA	</item>
+        <item>	CEUTA	</item>
+        <item>	MELILLA	</item>
+        <item>	OTRA	</item>
+    </string-array>
+
+    <integer-array name="provinciaSVQValues">
+        <item>	0	</item>
+        <item>	41	</item>
+        <item>	11	</item>
+        <item>	23	</item>
+        <item>	21	</item>
+        <item>	18	</item>
+        <item>	14	</item>
+        <item>	06	</item>
+        <item>	29	</item>
+        <item>	10	</item>
+        <item>	28	</item>
+        <item>	07	</item>
+        <item>	35	</item>
+        <item>	46	</item>
+        <item>	38	</item>
+        <item>	04	</item>
+        <item>	08	</item>
+        <item>	51	</item>
+        <item>	52	</item>
+        <item>	99	</item>
+    </integer-array>
+-->
+
+    <string-array name="provinciaSVQStrings">
+        <item>	…	</item>
+        <item>	SEVILLA	</item>
+        <item>	CADIZ	</item>
+        <item>	JAEN	</item>
+        <item>	HUELVA	</item>
+        <item>	GRANADA	</item>
+        <item>	CORDOBA	</item>
+        <item>	BADAJOZ	</item>
+        <item>	MALAGA	</item>
+        <item>	CACERES	</item>
+        <item>	MADRID	</item>
+<!--
+        <item>	BALEARES	</item>
+        <item>	LAS PALMAS	</item>
+-->
+        <item>	VALENCIA	</item>
+<!--
+        <item>	SANTA CRUZ DE TENERIFE	</item>
+-->
+        <item>	ALMERIA	</item>
+        <item>	BARCELONA	</item>
+<!--
+        <item>	CEUTA	</item>
+        <item>	MELILLA	</item>
+-->
+        <item>	FRONTERA GIBRALTAR	</item>
+        <item>	FRONTERA PORTUGAL	</item>
+        <item>	OTRA	</item>
+    </string-array>
+
+    <integer-array name="provinciaSVQValues">
+        <item>	0	</item>
+        <item>	41	</item>
+        <item>	11	</item>
+        <item>	23	</item>
+        <item>	21	</item>
+        <item>	18	</item>
+        <item>	14	</item>
+        <item>	06	</item>
+        <item>	29	</item>
+        <item>	10	</item>
+        <item>	28	</item>
+<!--
+        <item>	07	</item>
+        <item>	35	</item>
+-->
+        <item>	46	</item>
+<!--
+        <item>	38	</item>
+-->
+        <item>	04	</item>
+        <item>	08	</item>
+<!--
+        <item>	51	</item>
+        <item>	52	</item>
+-->
+        <item>	91	</item>
+        <item>	93	</item>
+        <item>	99	</item>
+    </integer-array>
+
+    <string-array name="provinciaPMIStrings">
+        <item>	…	</item>
+        <item>	MALLORCA	</item>
+        <item>	MENORCA	</item>
+        <item>	IBIZA	</item>
+        <item>	MADRID	</item>
+        <item>	ALICANTE	</item>
+        <item>	VALENCIA	</item>
+        <item>	MALAGA 	</item>
+        <item>	SEVILLA	</item>
+        <item>	BARCELONA	</item>
+        <item>	VIZCAYA	</item>
+        <item>	GIRONA	</item>
+        <item>	OTRA	</item>
+    </string-array>
+    <integer-array name="provinciaPMIValues">
+        <item>	0	</item>
+        <item>	07	</item>
+        <item>	07	</item>
+        <item>	07	</item>
+        <item>	28	</item>
+        <item>	03	</item>
+        <item>	46	</item>
+        <item>	29	</item>
+        <item>	41	</item>
+        <item>	08	</item>
+        <item>	48	</item>
+        <item>	17	</item>
+        <item>	99	</item>
+    </integer-array>
+
+    <string-array name="provinciaIBZStrings">
+        <item>	…	</item>
+        <item>	IBIZA	</item>
+        <item>	MALLORCA	</item>
+        <item>	MENORCA	</item>
+        <item>	ALICANTE	</item>
+        <item>	MADRID	</item>
+        <item>	VALENCIA	</item>
+        <item>	BARCELONA	</item>
+        <item>	GIRONA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+    <integer-array name="provinciaIBZValues">
+        <item>	0	</item>
+        <item>	71	</item>
+        <item>	72	</item>
+        <item>	73	</item>
+        <item>	3	</item>
+        <item>	28	</item>
+        <item>	46	</item>
+        <item>	8	</item>
+        <item>	17	</item>
+        <item>	99	</item>
+    </integer-array>
+
+    <string-array name="provinciaProcIBZStrings">
+        <item>	…	</item>
+        <item>	IBIZA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+    <integer-array name="provinciaProcIBZValues">
+        <item>	0	</item>
+        <item>	71	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+    <string-array name="provinciaProcMAHStrings">
+        <item>	…	</item>
+        <item>	MENORCA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+    <integer-array name="provinciaProcMAHValues">
+        <item>	0	</item>
+        <item>	73	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+    <string-array name="provinciaProcOVDStrings">
+        <item>	…	</item>
+        <item>	ASTURIAS	</item>
+        <item>	LEON	</item>
+        <item>	CANTABRIA	</item>
+        <item>	PALENCIA	</item>
+        <item>	LUGO	</item>
+        <item>	BALEARES	</item>
+        <item>  OURENSE </item>
+        <item>	OTRAS	</item>
+    </string-array>
+    <integer-array name="provinciaProcOVDValues">
+        <item>	0	</item>
+        <item>	33	</item>
+        <item>	24	</item>
+        <item>	39	</item>
+        <item>	34	</item>
+        <item>	27	</item>
+        <item>	7	</item>
+        <item>	32	</item>
+        <item>	99	</item>
+    </integer-array>
+    <string-array name="provResOVD">
+        <item>	33	</item>
+        <item>	24	</item>
+        <item>	39	</item>
+        <item>	34	</item>
+        <item>	27	</item>
+        <item>	32	</item>
+    </string-array>
+
+
+
+    <string-array name="provinciaProcAGPStrings">
+        <item>	…	</item>
+        <item>	MALAGA	</item>
+        <item>	GRANADA	</item>
+        <item>	ALMERIA	</item>
+        <item>	MURCIA	</item>
+        <item>	SEVILLA	</item>
+        <item>	CORDOBA	</item>
+        <item>	CADIZ	</item>
+        <item>	JAEN	</item>
+        <item>	MADRID	</item>
+        <item>	BARCELONA	</item>
+        <item>	VALENCIA	</item>
+        <item>	CEUTA	</item>
+        <item>	MELILLA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+    <integer-array name="provinciaProcAGPValues">
+        <item>	0	</item>
+        <item>	29	</item>
+        <item>	18	</item>
+        <item>	4	</item>
+        <item>	30	</item>
+        <item>	41	</item>
+        <item>	14	</item>
+        <item>	11	</item>
+        <item>	23	</item>
+        <item>	28	</item>
+        <item>	8	</item>
+        <item>	46	</item>
+        <item>	51	</item>
+        <item>	52	</item>
+        <item>	99	</item>
+    </integer-array>
+    <string-array name="provResAGP">
+        <item>	29	</item>
+        <item>	18	</item>
+        <item>	4	</item>
+        <item>	30	</item>
+        <item>	41	</item>
+        <item>	14	</item>
+        <item>	11	</item>
+        <item>	23	</item>
+        <item>	2	</item>
+        <item>	3	</item>
+    </string-array>
+
+
+    <string-array name="provinciaProcBIOStrings">
+        <item>	VIZCAYA	</item>
+        <item>	GUIPUZCOA	</item>
+        <item>	ALAVA	</item>
+        <item>	NAVARRA	</item>
+        <item>	CANTABRIA	</item>
+        <item>	ASTURIAS	</item>
+        <item>	BURGOS	</item>
+        <item>	RIOJA,LA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+    <integer-array name="provinciaProcBIOValues">
+        <item>	48	</item>
+        <item>	20	</item>
+        <item>	1	</item>
+        <item>	31	</item>
+        <item>	39	</item>
+        <item>	33	</item>
+        <item>	9	</item>
+        <item>	26	</item>
+        <item>	99	</item>
+
+    </integer-array>
+    <string-array name="provResBIO">
+        <item>	48	</item>
+        <item>	20	</item>
+        <item>	1	</item>
+        <item>	31	</item>
+        <item>	39	</item>
+        <item>	33	</item>
+        <item>	9	</item>
+        <item>	26	</item>
+    </string-array>
+
+
+    <string-array name="provinciaProcMADStrings">
+        <item>	…	</item>
+        <item>	ALAVA	</item>
+        <item>	ALBACETE	</item>
+        <item>	ALICANTE	</item>
+        <item>	ALMERIA	</item>
+        <item>	AVILA	</item>
+        <item>	BADAJOZ	</item>
+        <item>	BARCELONA	</item>
+        <item>	BURGOS	</item>
+        <item>	CACERES	</item>
+        <item>	CADIZ	</item>
+        <item>	CASTELLON DE LA PLANA	</item>
+        <item>	CIUDAD REAL	</item>
+        <item>	CORDOBA	</item>
+        <item>	CORUÑA, A	</item>
+        <item>	CUENCA	</item>
+        <item>	GIRONA	</item>
+        <item>	GRANADA	</item>
+        <item>	GUADALAJARA	</item>
+        <item>	GUIPUZCOA	</item>
+        <item>	HUELVA	</item>
+        <item>	HUESCA	</item>
+        <item>	JAEN	</item>
+        <item>	LEON	</item>
+        <item>	LLEIDA	</item>
+        <item>	RIOJA,LA	</item>
+        <item>	LUGO	</item>
+        <item>	MADRID	</item>
+        <item>	MALAGA	</item>
+        <item>	MURCIA	</item>
+        <item>	NAVARRA	</item>
+        <item>	OURENSE	</item>
+        <item>	ASTURIAS	</item>
+        <item>	PALENCIA	</item>
+        <item>	PONTEVEDRA	</item>
+        <item>	SALAMANCA	</item>
+        <item>	CANTABRIA	</item>
+        <item>	SEGOVIA	</item>
+        <item>	SEVILLA	</item>
+        <item>	SORIA	</item>
+        <item>	TARRAGONA	</item>
+        <item>	TERUEL	</item>
+        <item>	TOLEDO	</item>
+        <item>	VALENCIA	</item>
+        <item>	VALLADOLID	</item>
+        <item>	VIZCAYA	</item>
+        <item>	ZAMORA	</item>
+        <item>	ZARAGOZA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcMADValues">
+        <item>	0	</item>
+        <item>	1	</item>
+        <item>	2	</item>
+        <item>	3	</item>
+        <item>	4	</item>
+        <item>	5	</item>
+        <item>	6	</item>
+        <item>	8	</item>
+        <item>	9	</item>
+        <item>	10	</item>
+        <item>	11	</item>
+        <item>	12	</item>
+        <item>	13	</item>
+        <item>	14	</item>
+        <item>	15	</item>
+        <item>	16	</item>
+        <item>	17	</item>
+        <item>	18	</item>
+        <item>	19	</item>
+        <item>	20	</item>
+        <item>	21	</item>
+        <item>	22	</item>
+        <item>	23	</item>
+        <item>	24	</item>
+        <item>	25	</item>
+        <item>	26	</item>
+        <item>	27	</item>
+        <item>	28	</item>
+        <item>	29	</item>
+        <item>	30	</item>
+        <item>	31	</item>
+        <item>	32	</item>
+        <item>	33	</item>
+        <item>	34	</item>
+        <item>	36	</item>
+        <item>	37	</item>
+        <item>	39	</item>
+        <item>	40	</item>
+        <item>	41	</item>
+        <item>	42	</item>
+        <item>	43	</item>
+        <item>	44	</item>
+        <item>	45	</item>
+        <item>	46	</item>
+        <item>	47	</item>
+        <item>	48	</item>
+        <item>	49	</item>
+        <item>	50	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+
+    <string-array name="provinciaProcBCNStrings">
+        <item>	…	</item>
+        <item>	ALAVA	</item>
+        <item>	ALBACETE	</item>
+        <item>	ALICANTE	</item>
+        <item>	ALMERIA	</item>
+        <item>	AVILA	</item>
+        <item>	BADAJOZ	</item>
+        <item>	ILLES BALEARS	</item>
+        <item>	BARCELONA	</item>
+        <item>	BURGOS	</item>
+        <item>	CACERES	</item>
+        <item>	CADIZ	</item>
+        <item>	CASTELLON DE LA PLANA	</item>
+        <item>	CIUDAD REAL	</item>
+        <item>	CORDOBA	</item>
+        <item>	CORUÑA, A	</item>
+        <item>	CUENCA	</item>
+        <item>	GIRONA	</item>
+        <item>	GRANADA	</item>
+        <item>	GUADALAJARA	</item>
+        <item>	GUIPÚZCOA	</item>
+        <item>	HUELVA	</item>
+        <item>	HUESCA	</item>
+        <item>	JAEN	</item>
+        <item>	LEON	</item>
+        <item>	LLEIDA	</item>
+        <item>	RIOJA,LA	</item>
+        <item>	LUGO	</item>
+        <item>	MADRID	</item>
+        <item>	MALAGA	</item>
+        <item>	MURCIA	</item>
+        <item>	NAVARRA	</item>
+        <item>	OURENSE	</item>
+        <item>	ASTURIAS	</item>
+        <item>	PALENCIA	</item>
+        <item>	PONTEVEDRA	</item>
+        <item>	SALAMANCA	</item>
+        <item>	CANTABRIA	</item>
+        <item>	SEGOVIA	</item>
+        <item>	SEVILLA	</item>
+        <item>	SORIA	</item>
+        <item>	TARRAGONA	</item>
+        <item>	TERUEL	</item>
+        <item>	TOLEDO	</item>
+        <item>	VALENCIA	</item>
+        <item>	VALLADOLID	</item>
+        <item>	VIZCAYA	</item>
+        <item>	ZAMORA	</item>
+        <item>	ZARAGOZA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcBCNValues">
+        <item>	0	</item>
+        <item>	1	</item>
+        <item>	2	</item>
+        <item>	3	</item>
+        <item>	4	</item>
+        <item>	5	</item>
+        <item>	6	</item>
+        <item>	7	</item>
+        <item>	8	</item>
+        <item>	9	</item>
+        <item>	10	</item>
+        <item>	11	</item>
+        <item>	12	</item>
+        <item>	13	</item>
+        <item>	14	</item>
+        <item>	15	</item>
+        <item>	16	</item>
+        <item>	17	</item>
+        <item>	18	</item>
+        <item>	19	</item>
+        <item>	20	</item>
+        <item>	21	</item>
+        <item>	22	</item>
+        <item>	23	</item>
+        <item>	24	</item>
+        <item>	25	</item>
+        <item>	26	</item>
+        <item>	27	</item>
+        <item>	28	</item>
+        <item>	29	</item>
+        <item>	30	</item>
+        <item>	31	</item>
+        <item>	32	</item>
+        <item>	33	</item>
+        <item>	34	</item>
+        <item>	36	</item>
+        <item>	37	</item>
+        <item>	39	</item>
+        <item>	40	</item>
+        <item>	41	</item>
+        <item>	42	</item>
+        <item>	43	</item>
+        <item>	44	</item>
+        <item>	45	</item>
+        <item>	46	</item>
+        <item>	47	</item>
+        <item>	48	</item>
+        <item>	49	</item>
+        <item>	50	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+
+    <string-array name="provinciaProcTFNStrings">
+        <item>	…	</item>
+        <item>	PALMAS DE GRAN CANARIA, LAS	</item>
+        <item>	SANTA CRUZ DE TENERIFE	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcTFNValues">
+        <item>	0	</item>
+        <item>	35	</item>
+        <item>	38	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+    <string-array name="provinciaProcTFSStrings">
+        <item>	…	</item>
+        <item>	SANTA CRUZ DE TENERIFE	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcTFSValues">
+        <item>	0	</item>
+        <item>	38	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+
+
+    <string-array name="provinciaProcACEStrings">
+        <item>	…	</item>
+        <item>	LANZAROTE - LAS PALMAS	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcACEValues">
+        <item>	0	</item>
+        <item>	70	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+
+    <string-array name="provinciaProcFUEStrings">
+        <item>	…	</item>
+        <item>	FUERTEVENTURA - LAS PALMAS	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcFUEValues">
+        <item>	0	</item>
+        <item>	71	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+    <string-array name="provinciaProcLPAStrings">
+    <item>	…	</item>
+    <item>	GRAN CANARIA - LAS PALMAS	</item>
+    <item>	OTRAS	</item>
+</string-array>
+
+    <integer-array name="provinciaProcLPAValues">
+        <item>	0	</item>
+        <item>	72	</item>
+        <item>	99	</item>
+    </integer-array>
+
+    <string-array name="provinciaProcLEIStrings">
+        <item>	…	</item>
+        <item>	ALMERIA	</item>
+        <item>	GRANADA	</item>
+        <item>	MALAGA	</item>
+        <item>	JAEN	</item>
+        <item>	CORDOBA	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcLEIValues">
+        <item>	0	</item>
+        <item>	4	</item>
+        <item>	18	</item>
+        <item>	29	</item>
+        <item>	23	</item>
+        <item>	14	</item>
+        <item>	99	</item>
+    </integer-array>
+
+    <string-array name="provinciaProcREUStrings">
+        <item>	…	</item>
+        <item>	BARCELONA	</item>
+        <item>	CASTELLON	</item>
+        <item>	GIRONA	</item>
+        <item>	HUESCA 	</item>
+        <item>	LLEIDA 	</item>
+        <item>	TARRAGONA 	</item>
+        <item>	TERUEL 	</item>
+        <item>	ZARAGOZA 	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcREUValues">
+        <item>	0	</item>
+        <item>	8 	</item>
+        <item>	12 	</item>
+        <item>	17 	</item>
+        <item>	22 	</item>
+        <item>	25	</item>
+        <item>  43 	</item>
+        <item>	44 	</item>
+        <item>	50 	</item>
+        <item>	99	</item>
+    </integer-array>
+
+    <string-array name="provinciaProcALCStrings">
+        <item>	…	</item>
+        <item>	ALICANTE	</item>
+        <item>	MURCIA	</item>
+        <item>	VALENCIA	</item>
+        <item>	ALMERIA 	</item>
+        <item>	GRANADA 	</item>
+        <item>	JAEN 	</item>
+        <item>	ALBACETE 	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcALCValues">
+        <item>	0	</item>
+        <item>	3 	</item>
+        <item>	30 	</item>
+        <item>	46 	</item>
+        <item>	4 	</item>
+        <item>	18	</item>
+        <item>  23 	</item>
+        <item>	2 	</item>
+        <item>	99	</item>
+    </integer-array>
+
+    <string-array name="provinciaProcGRXStrings">
+        <item>	…	</item>
+        <item>	GRANADA	</item>
+        <item>	ALMERIA	</item>
+        <item>	MURCIA 	</item>
+        <item>	JAEN 	</item>
+        <item>	CORDOBA 	</item>
+        <item>	MALAGA 	</item>
+        <item>	OTRAS	</item>
+    </string-array>
+
+    <integer-array name="provinciaProcGRXValues">
+        <item>	0	</item>
+        <item>	18 	</item>
+        <item>	4 	</item>
+        <item>	30 	</item>
+        <item>	23	</item>
+        <item>  14 	</item>
+        <item>	29 	</item>
+        <item>	99	</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="distritosMADStrings">
+        <item>	... 	</item>
+        <item>	CENTRO	</item>
+        <item>	ARGANZUELA	</item>
+        <item>	RETIRO	</item>
+        <item>	SALAMANCA	</item>
+        <item>	CHAMARTÍN	</item>
+        <item>	TETUAN	</item>
+        <item>	CHAMBERI	</item>
+        <item>	FUENCARRAL-EL PARDO	</item>
+        <item>	MONCLOCA-ARAVACA	</item>
+        <item>	LATINA	</item>
+        <item>	CARABANCHEL	</item>
+        <item>	USERA	</item>
+        <item>	PUENTE DE VALLECAS	</item>
+        <item>	MORATALAZ	</item>
+        <item>	CIUDAD LINEAL	</item>
+        <item>	HORTALEZA	</item>
+        <item>	VILLAVERDE	</item>
+        <item>	VILLA DE VALLECAS	</item>
+        <item>	VICALVARO	</item>
+        <item>	SAN BLAS	</item>
+        <item>	BARAJAS	</item>
+        <item>	NS/NC	</item>
+    </string-array>
+
+
+    <integer-array name="distritosMADCodes">
+        <item>	0	</item>
+        <item>	01	</item>
+        <item>	02	</item>
+        <item>	03	</item>
+        <item>	04	</item>
+        <item>	05	</item>
+        <item>	06	</item>
+        <item>	07	</item>
+        <item>  08	</item>
+        <item>	09	</item>
+        <item>	10	</item>
+        <item>	11	</item>
+        <item>	12	</item>
+        <item>	13	</item>
+        <item>	14	</item>
+        <item>	15	</item>
+        <item>	16	</item>
+        <item>	17	</item>
+        <item>	18	</item>
+        <item>	19	</item>
+        <item>	20	</item>
+        <item>	21	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+
+    <string-array name="distritosBCNStrings">
+        <item>	…	</item>
+        <item>	CIUTAT VELLA	</item>
+        <item>	EIXAMPLE	</item>
+        <item>	SANT MONTJUIC	</item>
+        <item>	LES CORTS	</item>
+        <item>	SARRIA-SANT GERVASI	</item>
+        <item>	GRACIA	</item>
+        <item>	HORTA-GUINARDO	</item>
+        <item>	NOU BARRIS	</item>
+        <item>	SANT ANDREU	</item>
+        <item>	SANT MARTÍ	</item>
+        <item>	NS/NC	</item>
+    </string-array>
+
+
+    <integer-array name="distritosBCNCodes">
+        <item>	0	</item>
+        <item>	1	</item>
+        <item>	2	</item>
+        <item>	3	</item>
+        <item>	4	</item>
+        <item>	5	</item>
+        <item>	6	</item>
+        <item>	7	</item>
+        <item>	8	</item>
+        <item>	9	</item>
+        <item>	10	</item>
+        <item>	99	</item>
+    </integer-array>
+
+
+</resources>

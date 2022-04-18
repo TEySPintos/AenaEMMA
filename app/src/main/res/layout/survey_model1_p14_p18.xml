@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--style="@style/SurveyQuestionsBox">-->
+
+    //P14
+    <LinearLayout
+        android:id="@+id/survey_layout_P14"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+
+        <TextView
+            android:id="@+id/survey_text_P14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_P14"
+            style="@style/SuveyQuestionTitle"/>
+        <Spinner
+            android:id="@+id/survey_spinner_P14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/SurveyQuestionEdit"/>
+    </LinearLayout>
+    //End of P14
+
+
+    //P15
+    <LinearLayout
+        android:id="@+id/survey_layout_P15"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_P15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_P15"
+            style="@style/SuveyQuestionTitle"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/survey_radiogroup_P15"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/survey_radio_P15_option1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_P15_option1"/>
+                <RadioButton
+                    android:id="@+id/survey_radio_P15_option2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_P15_option2"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/survey_text_P15a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_text_P15a"
+                    style="@style/SuveyQuestionTitle"
+                    android:visibility="invisible"/>
+                <TextView
+                    android:id="@+id/survey_text_P15b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_text_P15b"
+                    style="@style/SuveyQuestionTitle"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/survey_layout_P15nums"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_P15b_option2"/>
+                <EditText
+                    android:id="@+id/survey_edit_P15b"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    style="@style/SurveyQuestionEdit"
+                    android:inputType="number"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/survey_text_P15_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_P15_error"
+            android:textColor="@color/aenaRed"
+            style="@style/SuveyQuestionTitle"
+            android:visibility="gone"/>
+    </LinearLayout>
+    //End of P15
+
+
+    //P16
+    <LinearLayout
+        android:id="@+id/survey_layout_P16"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_P16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_P16"
+            style="@style/SuveyQuestionTitle"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/survey_radiogroup_P16"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/survey_radio_P16_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_P16_option1"/>
+                <RadioButton
+                    android:id="@+id/survey_radio_P16_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_radio_P16_option3"/>
+
+
+            </RadioGroup>
+            <EditText
+                android:id="@+id/survey_edit_P16_numPersonas"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/SurveyQuestionEdit"
+                android:inputType="number"
+                android:layout_gravity="bottom"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    //End of P16
+
+    //P17
+    <LinearLayout
+        android:id="@+id/survey_layout_P17"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+
+        <TextView
+            android:id="@+id/survey_text_P17"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_P17"
+            style="@style/SuveyQuestionTitle"/>
+        <EditText
+            android:id="@+id/survey_edit_P17"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/SurveyQuestionEdit"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    //End of P17
+
+
+    //P18
+    <LinearLayout
+        android:id="@+id/survey_layout_P18"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/SurveySingleQuestion">
+        <TextView
+            android:id="@+id/survey_text_P18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_text_P18"
+            style="@style/SuveyQuestionTitle"/>
+        <RadioGroup
+            android:id="@+id/survey_radiogroup_P18"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/survey_radio_P18_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_P18_option1"/>
+            <RadioButton
+                android:id="@+id/survey_radio_P18_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_P18_option2"/>
+            <RadioButton
+                android:id="@+id/survey_radio_P18_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_P18_option3"/>
+            <RadioButton
+                android:id="@+id/survey_radio_P18_option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_P18_option4"/>
+            <RadioButton
+                android:id="@+id/survey_radio_P18_option5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_radio_P18_option5"/>
+        </RadioGroup>
+    </LinearLayout>
+    //End of P18
+
+</LinearLayout>

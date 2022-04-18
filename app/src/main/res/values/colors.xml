@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="aenaBlue">#1A2732</color>
+    <color name="aenaGreen">#89C300</color>
+    <color name="aenaLightGreen">#A7C265</color>
+    <color name="aenaDarkGreen">#557A19</color>
+    <color name="aenaOrange">#FD7E2D</color>
+    <color name="aenaRed">#F32731</color>
+    <color name="aenaLightGrey">#E9EDF0</color>
+    <color name="aenaDarkGrey">#D1D5D8</color>
+    <color name="white">#FFFFFF</color>
+</resources>

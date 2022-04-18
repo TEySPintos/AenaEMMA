@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.teys.aenaemma.SurveyActivity"
+    android:id="@+id/contentSurvey"
+    android:orientation="vertical"
+    android:background="@color/aenaLightGrey" >
+
+    <include layout="@layout/survey_header"/>
+
+    //Body of the survey
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/survey_identifier" />
+
+        <LinearLayout
+            android:id="@+id/survey_form_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+
+<!--
+        <include layout="@layout/survey_model1_p01_p04" />
+        <include layout="@layout/survey_model1_p05_p07" />
+        <include layout="@layout/survey_model1_p08_p13" />
+        <include layout="@layout/survey_model1_p14_p18" />
+        <include layout="@layout/survey_model1_p19_p25" />
+        <include layout="@layout/survey_model1_p26_p28" />
+        <include layout="@layout/survey_model1_p29_p30" />
+        <include layout="@layout/survey_model1_p31_p36" />
+
+        -->
+
+        <RelativeLayout
+            android:id="@+id/survey_form_control1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/survey_button_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/large_padding"
+                android:background="@color/aenaGreen"
+                android:padding="@dimen/small_padding"
+                android:text="&#x21b6;"
+                android:textColor="@color/aenaBlue"
+                android:textSize="44dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:background="@color/aenaGreen" />
+
+            <Button
+                android:id="@+id/survey_button_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/large_padding"
+                android:background="@color/aenaGreen"
+                android:padding="@dimen/large_padding"
+                android:text="Siguiente"
+                android:textColor="@color/aenaBlue"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/survey_button_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/large_padding"
+                android:background="@color/aenaGreen"
+                android:padding="@dimen/large_padding"
+                android:text="@string/survey_button_save"
+                android:textColor="@color/aenaBlue"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/survey_text_question"
+                android:layout_marginTop="@dimen/large_padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/survey_progressbar"
+                android:text="1/42" />
+
+            <ProgressBar
+                android:id="@+id/survey_progressbar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_toRightOf="@+id/survey_button_previous"
+                android:layout_marginTop="@dimen/large_padding"
+                android:layout_gravity="left"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+
+                android:max="42"
+                android:progressDrawable="@drawable/aena_progressbar"
+                android:layout_weight="6.03" />
+        </RelativeLayout>
+
+    </LinearLayout>
+        //End of body
+    </ScrollView>
+
+    <include layout="@layout/survey_header"/>
+
+    //Body of the survey
+
+</LinearLayout>
+

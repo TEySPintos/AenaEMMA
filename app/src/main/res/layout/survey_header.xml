@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    //Header of the survey
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/aenaBlue">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/survey_sitemainformacion_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/standard_padding"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:layout_marginTop="@dimen/standard_padding"
+                android:gravity="center"
+                android:text="@string/survey_text_codencuestador"
+                android:textColor="@color/white"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/survey_text_codEncuestador"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:text="XX"
+                android:textColor="@color/white"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="@dimen/standard_padding">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aena_logo"/>
+            <TextView
+                android:id="@+id/survey_text_airportHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_text_encuestasAeropuerto"
+                android:textColor="@color/white"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="@string/survey_text_numEncuesta"
+                android:textColor="@color/white"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/survey_text_numEncuesta"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="XXXX"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+    //End of Header
+
+</LinearLayout>
